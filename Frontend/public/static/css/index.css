@@ -1,0 +1,190 @@
+@import url('./assets/css/argon-design-system-react.css');
+@import url('./assets/css/argon-design-system-react.min.css');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ECECEC !important;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, span, label, form, table, tr, td, a, div, ul, li, ol {font-family: 'Poppins', sans-serif;}
+span {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+@media  only screen and (zoom:110%) {
+  body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke !important;
+  overflow-x: hidden;
+  width: 90%;
+  height: 90%;
+  }
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.font-teko{font-family: 'Teko', sans-serif;}
+.logo-text{font-weight: 400;font-size: 80px;}
+.module-title{font-family: 'Poppins', sans-serif;color: #545AF2;font-size: 35px;line-height: 52px;font-weight: 600;display: inline-block;vertical-align: middle;}
+.seperater{width: 4px;height: 80px;background: #000;display: inline-block;vertical-align: middle;margin: 0 20px;}
+.poppins-400-28{font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 28px;line-height: 26px;}
+.poppins-400-16{font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 16px;line-height: 16px;}
+.poppins-400-14{font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 14px;line-height: 14px;}
+.poppins-400-12{font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 12px;line-height: 12px;}
+.poppins-500-13{font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 14px;line-height: 14px;}
+.radius-15{border-radius: 15px;}
+.color-blue-theme{color: #545AF2;}
+.weight-500{font-weight: 500;}
+.line-height-auto{line-height: normal;}
+.fn-flw-btn{padding: 5px 23px;font-size: 12px;font-weight: normal;text-transform: capitalize;}
+
+
+.fn-wrapper-upper{height: calc(100vh - 97px);position: relative;}
+.send-icon{font-size: 20px;}
+.action-menu-btn, .action-menu-btn:hover, .action-menu-btn:focus, .action-menu-btn:active{background: transparent; box-shadow: none; border: none;}
+.auth-card-body{padding: 40px 35px;}
+.auth-card-body .form-control{border: 2.5px solid #000000;box-sizing: border-box;border-radius: 10px;height: 52px;line-height: 52px;color:#000}
+.form-control:focus{outline: none;box-shadow: none;}
+.fn-theme-btn, button.fn-theme-btn.mt-2.btn.btn-secondary{background: linear-gradient(90deg, #545AF2 0%, #A154F2 87.07%);border-radius: 10px;display: block;width: 100%;color: #fff;font-family: 'Poppins';font-size: 18px;line-height: 24px;border: none;padding: 14px 0;position: static;text-transform: none;will-change: auto;letter-spacing: normal;box-shadow: none;font-weight: normal;transition: none;transform: none;}
+.signup-btn-box{width: 250px;margin: 0 auto;}
+.signup-btn-box .fa-plus{font-size: 29px;}
+.signup-btn-box .btn-icon-only{width: 60px;height: 60px;margin: 0 0 20px !important;}
+.signup-btn-box a{font-size: 18px;line-height: 27px;text-decoration-line: underline;color: #000000;}
+footer{background: #fff;font-size: 14px;line-height: 14px;color: #333333;text-align: center;padding: 27px 0;}
+.user-img-box{display: inline-block;width: 40px;height: 40px;margin-right: 10px;vertical-align: top;}
+.comment-text-box {display: inline-block;width: calc(100% - 50px);background: #eee;padding: 10px 10px;border-radius: 0 5px 5px 5px;}
+.single-comment-box {margin-bottom: 10px;}
+.fn-modal{background: rgba(0, 0, 0, 0.8);}
+.fn-modal .modal-dialog {max-width: 858px;width: 100%;min-height: 636px;}
+.fn-modal .modal-header{padding: 50px 0;}
+.fn-modal .modal-header .close {opacity: 1;top: 30px;right: 40px;}
+.fn-modal .modal-dialog .modal-body p {width: 48%;margin: 0 auto 15px;color: #333;font-size: 18px;}
+.fn-modal .modal-dialog .modal-body .auth-card-body {padding: 30px 35px;}
+.custom-control-label:before, .custom-control-label:after{top: 0;}
+.signup-vector-wrap{max-width: 430px;position: absolute;top: 50%;right: 190px;width: 100%;transform: translateY(-50%);}
+
+
+.fn-radio-list li{margin-right: 25px !important;}
+.fn-radio-list li input[type=radio]{position: absolute;visibility: hidden;}
+.fn-radio-list .form-check{padding-left: 0;margin: 0;}
+.fn-radio-list li label{display: block;position: relative;padding: 0 0 0 35px;z-index: 9;cursor: pointer;-webkit-transition: all 0.25s linear;color: #000000;font-size: 16px;margin: 0;line-height: 1;}
+.fn-radio-list li:hover label{
+	color: #000000;
+}
+
+.fn-radio-list li .check{
+  display: block;
+  position: absolute;
+  border: 2px solid #5672FA;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: -5px;
+  left: 0;
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+
+.fn-radio-list li:hover .check {
+  border: 2px solid #5672FA;
+}
+
+.fn-radio-list li .check::before {
+  display: block;
+  position: absolute;
+	content: '';
+  border-radius: 100%;
+  height: 13px;
+  width: 13px;
+  top: 4px;
+	left: 4px;
+  margin: auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+
+.fn-radio-list input[type=radio]:checked ~ .check {
+  border: 2px solid #5672FA;
+}
+
+.fn-radio-list input[type=radio]:checked ~ .check::before{
+  background: #5672FA;
+}
+
+.fn-radio-list input[type=radio]:checked ~ label{
+  color: #000000;
+}
+.resume-icon {
+  margin-right: 15px;
+}
+
+.resume-title {
+  display: block;
+  font-weight: 500;
+}
+
+.resume-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.fn-modal.fn-modal-md .modal-dialog {
+  max-width: 500px;
+  width: 100%;
+  min-height: calc(100% - 70px);
+}
+.fn-modal.fn-modal-md .modal-dialog .modal-body .auth-card-body {
+  padding: 20px 25px;
+}
+
+@media (min-width:768px) and (max-width:1440px){
+  .fn-wrapper-upper {
+    height: calc(100vh - 0px);
+    position: relative;
+    margin-bottom: 140px;
+  }
+  .signup-vector-wrap{
+    right: 0;
+    margin-top: 60px;
+  }
+  .chat-left-box .chat-img {
+      display: none;
+  }
+}
+
+.backBtn {
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}

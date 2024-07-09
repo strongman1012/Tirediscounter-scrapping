@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* iphone text fixes, fields fail to show entered texts */
+/*input[type="text"] {
+  font-family: Arial;
+  transform: translateZ(0);
+}*/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bodyOverflow {
+  overflow-y: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-wrapper {
+  height: 100vh;
+  margin: 10px 50px;
+  filter: drop-shadow(-1px 5px 3px #ccc);
+}
+.info-wrapper {
+  margin-top: 15px;
+}
+.map-details {
+  text-align: center;
+  font-size: 1.2em;
+}
+.map-details span {
+  font-weight: bold;
+}
+.search-input {
+  font-size: 1.2em;
+  width: 80%;
+}
+.cart-img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.font-22-medium {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+  line-height: 28px;
+}
+.font-24-semibold {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.font-30-semibold {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  line-height: 24px;
+}
+
+.curPointer {
+  cursor: pointer;
+}
